@@ -3,23 +3,13 @@
 }
 
 .wallpaper {
+  z-index: 12;
   height: 100vh;
   width: 100vw;
   background-size: cover;
 }
 
-.footer {
-  z-index: 2;
-  position: absolute;
-  bottom: 0;
-  width: 100vw;
-  height: 50px;
-  background-color: #00000085;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.footer h5 {
-  margin: 0px 20px;
-  color: #fff;
+.fab {
+  --background: #121212af;
+  margin-bottom: 3vh;
 }
