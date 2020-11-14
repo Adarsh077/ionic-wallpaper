@@ -89,7 +89,15 @@ class Home extends Component {
       .then((location) => {
         this.setState({ toast: true });
       })
-      .catch((error) => console.error(error));
+      .catch((error) => {
+        if (error === "PERMISSION DENIED") {
+          alert(
+            "Please provide Storage permission. Enable from Settings->Apps->Hd Wallpaper->Permissions"
+          );
+        } else {
+          alert(JSON.stringify(error));
+        }
+      });
   };
 
   render() {

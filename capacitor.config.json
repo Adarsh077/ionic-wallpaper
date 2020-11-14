@@ -5,5 +5,5 @@
   "npmClient": "npm",
   "webDir": "build",
   "cordova": {},
-  "linuxAndroidStudioPath": "/snap/android-studio/88/android-studio/bin/studio.sh"
+  "linuxAndroidStudioPath": "/snap/android-studio/current/android-studio/bin/studio.sh"
 }
